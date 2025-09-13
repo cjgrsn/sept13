@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Black Market</title>
+  </head>
+
+  <body
+    style="
+      margin: 0;
+      height: 100vh;
+      background: url('front.webp') no-repeat center center;
+      background-size: cover;
+      display: flex;
+      justify-content: center;
+      align-items: flex-end; /* push form to bottom */
+      padding-bottom: 50px; /* space from bottom edge */
+    "
+  >
+    <form
+      action="insideweb.html"
+      method="get"
+      style="
+        background-color: rgba(255, 255, 255, 0.8);
+        padding: 30px;
+        border-radius: 10px;
+        text-align: center;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+      "
+    >
+      <h2>Welcome to Black Market</h2>
+      <div style="margin-bottom: 15px">
+        <label>Username:</label><br />
+        <input type="text" name="Username" required />
+      </div>
+      <div style="margin-bottom: 15px">
+        <label>Password:</label><br />
+        <input type="password" name="Password" required />
+      </div>
+      <button type="submit">Login</button>
+    </form>
+  </body>
+</html>
